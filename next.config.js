@@ -10,7 +10,4 @@ module.exports = withNextra({
     locales: ["en-US", "zh-CN", "es-ES", "pt-BR", "ja", "ko", "ru"],
     defaultLocale: "en-US",
   },
-  redirects: () => {
-    return [];
-  },
 });
